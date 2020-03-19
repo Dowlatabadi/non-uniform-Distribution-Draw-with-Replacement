@@ -12,13 +12,13 @@ namespace Non_Uniform_Draw_Take
             Random rnd = new Random();
             return Items.OrderBy(x => rnd.Next()).Take(Take_number);
         }
-        public static IEnumerable<T> Take_Non_Uniform<T>(this IEnumerable<T> Items,List<double> Weights, int Take_number,bool Replacement=true)
+        public static IEnumerable<T> Take_Non_Uniform<T>(this IEnumerable<T> Items,List<double> Weights, int Take_number,bool Placement=true)
         {
             HashSet<int> drawn = new HashSet<int>();
             //TODO replacement false
             if (Weights.Count() != Items.Count())
                 throw new Exception($"weights and items should be equal in length");
-            if (Replacement==false && Take_number>Items.Count())
+            if (Placement==false && Take_number>Items.Count())
                 throw new Exception($"theres a few items can't take many items");
             var sum = Weights.Sum();
             var Normalized_Weights = Weights.Select(x => x / sum).ToArray();
@@ -34,8 +34,11 @@ namespace Non_Uniform_Draw_Take
                     if (current_rnd <= Normalized_Weights[i])
                     {
                         yield return Items.ElementAt(i);
-                        start += Normalized_Weights[i];
-                        drawn.Add(i);
+                        if (!Placement)
+                        {
+                            start += Normalized_Weights[i];
+                            drawn.Add(i); 
+                        }
                         break;
                     }
                     current_rnd -= Normalized_Weights[i];
