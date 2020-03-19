@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Non_Uniform_Draw_Take/1.0.0": {
+        "runtime": {
+          "Non_Uniform_Draw_Take.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Non_Uniform_Draw_Take/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

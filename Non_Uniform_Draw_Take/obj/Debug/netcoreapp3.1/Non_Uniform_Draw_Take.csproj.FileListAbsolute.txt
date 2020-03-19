@@ -1,0 +1,10 @@
+C:\Users\mehrdad\source\repos\Non_Uniform_Draw_Take\Non_Uniform_Draw_Take\bin\Debug\netcoreapp3.1\Non_Uniform_Draw_Take.exe
+C:\Users\mehrdad\source\repos\Non_Uniform_Draw_Take\Non_Uniform_Draw_Take\bin\Debug\netcoreapp3.1\Non_Uniform_Draw_Take.deps.json
+C:\Users\mehrdad\source\repos\Non_Uniform_Draw_Take\Non_Uniform_Draw_Take\bin\Debug\netcoreapp3.1\Non_Uniform_Draw_Take.runtimeconfig.json
+C:\Users\mehrdad\source\repos\Non_Uniform_Draw_Take\Non_Uniform_Draw_Take\bin\Debug\netcoreapp3.1\Non_Uniform_Draw_Take.runtimeconfig.dev.json
+C:\Users\mehrdad\source\repos\Non_Uniform_Draw_Take\Non_Uniform_Draw_Take\bin\Debug\netcoreapp3.1\Non_Uniform_Draw_Take.dll
+C:\Users\mehrdad\source\repos\Non_Uniform_Draw_Take\Non_Uniform_Draw_Take\bin\Debug\netcoreapp3.1\Non_Uniform_Draw_Take.pdb
+C:\Users\mehrdad\source\repos\Non_Uniform_Draw_Take\Non_Uniform_Draw_Take\obj\Debug\netcoreapp3.1\Non_Uniform_Draw_Take.AssemblyInfoInputs.cache
+C:\Users\mehrdad\source\repos\Non_Uniform_Draw_Take\Non_Uniform_Draw_Take\obj\Debug\netcoreapp3.1\Non_Uniform_Draw_Take.AssemblyInfo.cs
+C:\Users\mehrdad\source\repos\Non_Uniform_Draw_Take\Non_Uniform_Draw_Take\obj\Debug\netcoreapp3.1\Non_Uniform_Draw_Take.dll
+C:\Users\mehrdad\source\repos\Non_Uniform_Draw_Take\Non_Uniform_Draw_Take\obj\Debug\netcoreapp3.1\Non_Uniform_Draw_Take.pdb
